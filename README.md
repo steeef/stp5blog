@@ -1,6 +1,7 @@
 # stp5.net website
 
-Built with [Hugo|https://gohugo.io], run with [Caddy|https://caddyserver.com]
+Built with [Hugo](https://gohugo.io), run with
+[Caddy](https://caddyserver.com).
 
 # License
 
