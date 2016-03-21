@@ -1,7 +1,7 @@
-# stp5.net website
+# stp5.net blog
 
-Built with [Hugo](https://gohugo.io), run with
-[Caddy](https://caddyserver.com).
+Built with [Hugo](https://gohugo.io), utilizing the [Minimalist
+Theme](https://github.com/digitalcraftsman/hugo-minimalist-theme)
 
 # License
 
