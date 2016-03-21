@@ -1,4 +1,5 @@
 baseurl = "https://stp5.net/blog/"
+relativeURLs = true
 languageCode = "en-us"
 title = "stp5 blog"
 # Define how many pages appear per site
