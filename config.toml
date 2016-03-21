@@ -1,4 +1,4 @@
-baseurl = "https://stp5.net/"
+baseurl = "https://stp5.net/blog/"
 languageCode = "en-us"
 title = "stp5 blog"
 # Define how many pages appear per site
