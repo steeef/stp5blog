@@ -1,3 +1,35 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "https://stp5.net/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "stp5 blog"
+# Define how many pages appear per site
+paginate = 10
+# Enable comments powered by Disqus by entering your disqus shortname
+#disqusShortname = "spf13"
+theme = "minimalist"
+
+[params]
+    site_author = "Stephen Price"
+    site_description = "stp5.net blog"
+    location = "Earth"
+    # All paths are relative to the baseurl. Put your files
+    # somewhere in the static folder.
+    avatar = "images/profile-image.png"
+    header_background = "images/bg.jpg"
+    header_title = "stp5"
+    copyright = "Powered by [Hugo](https://gohugo.io)."
+
+    # Enable gogle analytics by entering your tracking code
+    google_analytics = ""
+
+[social]
+    # Add your social network accounts to the profile section on the left
+    # by entering your username. The links to your account will be
+    # create automatically.
+    twitter   = "steeef"
+    facebook  = ""
+    linkedin  = ""
+    behance   = ""
+    dribbble  = ""
+    instagram = ""
+    github    = "steeef"
+    gplus     = ""
