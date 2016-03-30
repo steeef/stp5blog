@@ -10,7 +10,7 @@ theme = "minimalist"
 [params]
     site_author = "Stephen Price"
     site_description = "stp5.net blog"
-    location = "Earth"
+    location = "Portland, OR"
     # All paths are relative to the baseurl. Put your files
     # somewhere in the static folder.
     avatar = "images/profile-image.png"
@@ -27,9 +27,9 @@ theme = "minimalist"
     # create automatically.
     twitter   = "steeef"
     facebook  = ""
-    linkedin  = ""
+    linkedin  = "stevetprice"
     behance   = ""
     dribbble  = ""
-    instagram = ""
+    instagram = "stevetprice"
     github    = "steeef"
-    gplus     = ""
+    gplus     = "steeef"
