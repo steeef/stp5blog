@@ -69,7 +69,7 @@ files[^4] that runs a Docker container with Caddy and Hugo installed. Caddy
 clones my Hugo repository and waits for updates. Easy-peasy.
 
 My blog's git repo is hosted on GitHub here:
-[https://github.com/steeef/stp5blog]
+https://github.com/steeef/stp5blog
 
 ## Future enhancements
 
