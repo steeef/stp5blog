@@ -1,7 +1,7 @@
 +++
-date = "2016-03-30T11:25:09-07:00"
+date = "2016-03-30T13:28:14-07:00"
 tags = [ "docker", "hugo", "caddy"]
-draft = true
+draft = false
 title = "Creating my blog with Docker, Hugo, and Caddy"
 
 +++
