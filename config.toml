@@ -4,7 +4,7 @@ title = "stp5 blog"
 # Define how many pages appear per site
 paginate = 10
 # Enable comments powered by Disqus by entering your disqus shortname
-#disqusShortname = "stp5"
+disqusShortname = "stp5"
 theme = "minimalist"
 
 [params]
