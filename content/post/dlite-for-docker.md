@@ -1,7 +1,7 @@
 +++
-date = "2016-03-31T10:04:49-07:00"
+date = "2016-03-31T10:47:33-07:00"
 tags = ["docker", "dlite"]
-draft = true
+draft = false
 title = "Using Docker in OS X with DLite"
 
 +++
