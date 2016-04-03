@@ -15,7 +15,7 @@ theme = "minimalist"
     # somewhere in the static folder.
     avatar = "images/profile-image.png"
     header_background = "../images/bg.jpg"
-    header_title = "stp5"
+    header_title = "stp⁵"
     copyright = "Powered by [Hugo](https://gohugo.io)."
 
     # Enable gogle analytics by entering your tracking code
