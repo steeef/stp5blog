@@ -1,6 +1,6 @@
 +++
-date = "2016-04-07T10:12:45-07:00"
-draft = true
+date = "2016-04-07T11:07:11-07:00"
+draft = false
 tags = ["raspberry-pi", "pi-hole", "retropie"]
 title = "raspberry pi projects"
 
