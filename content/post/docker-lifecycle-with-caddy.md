@@ -17,8 +17,7 @@ following:
 docker pull steeef/stp5net
 docker stop stp5net
 docker rm stp5net
-docker run -d --restart unless-stopped <environment-specific-options-here>  --name
-stp5net steeef/stp5net
+docker run -d --restart unless-stopped <environment-specific-options-here>  --name stp5net steeef/stp5net
 ```
 
 Notice I'm using the `--restart unless-stopped` restart policy[^3] for the `run`
