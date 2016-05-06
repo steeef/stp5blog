@@ -1,6 +1,6 @@
 +++
-date = "2016-05-06T09:53:40-07:00"
-draft = true
+date = "2016-05-06T10:15:18-07:00"
+draft = false
 tags = ["caddy", "docker"]
 title = "Docker lifecycle with Caddy"
 
