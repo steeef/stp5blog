@@ -1,6 +1,6 @@
 +++
-date = "2016-09-15T15:33:09-07:00"
-draft = true
+date = "2016-09-15T16:09:36-07:00"
+draft = false
 tags = ["yubikey", "ssh", "keybase", "keybase.io"]
 title = "Yubikey, Keybase and SSH"
 
