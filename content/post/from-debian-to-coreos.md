@@ -1,6 +1,6 @@
 +++
-date = "2016-09-23T11:45:32-07:00"
-draft = true
+date = "2016-09-23T12:05:10-07:00"
+draft = false
 tags = ["coreos", "docker", "debian", "caddy", "rkt"]
 title = "From Debian to CoreOS"
 
