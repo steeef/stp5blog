@@ -16,7 +16,7 @@ theme = "minimalist"
     avatar = "images/profile-image.png"
     header_background = "../images/bg.jpg"
     header_title = "stp⁵"
-    copyright = "&copy; <a href=\"https://github.com/steeef\">Stephen Price</a> 2017"
+    copyright = "<a href=\"https://github.com/steeef\">Stephen Price</a>"
 
     # Enable gogle analytics by entering your tracking code
     google_analytics = ""
