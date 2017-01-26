@@ -6,6 +6,7 @@ paginate = 10
 # Enable comments powered by Disqus by entering your disqus shortname
 disqusShortname = "stp5"
 theme = "minimalist"
+copyright = "&copy; <a href=\"https://github.com/steeef\">Stephen Price</a> 2017"
 
 [params]
     site_author = "Stephen Price"
