@@ -2,7 +2,7 @@
 date = "2016-08-26T20:53:36-07:00"
 draft = true
 tags = ["mechanical-keyboard", "keyboard"]
-title = "My Mechanical Meyboards"
+title = "My Mechanical Keyboards"
 
 +++
 
