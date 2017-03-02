@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/steeef
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://stp5.net
+  * I am steeef (https://keybase.io/steeef) on keybase.
+  * I have a public key with fingerprint D474 2F1D B8B4 4D91 B829  CD19 70BD B78A 3362 F2EE
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012fed9404f1daac313ae3ec7b2b2dbc3ad436c25b677c4676de835c77751550e70a",
+            "fingerprint": "d4742f1db8b44d91b829cd1970bdb78a3362f2ee",
+            "host": "keybase.io",
+            "key_id": "70bdb78a3362f2ee",
+            "kid": "01012fed9404f1daac313ae3ec7b2b2dbc3ad436c25b677c4676de835c77751550e70a",
+            "uid": "c74eca74ab0aca427b46313fe3af6219",
+            "username": "steeef"
+        },
+        "service": {
+            "hostname": "stp5.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1473542443,
+    "expire_in": 157680000,
+    "prev": "9c886376c4423f235d0ee0f57737fa052986d2e7a57d6f7bd39091c263699eee",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owGtUm1oTWEcv9fb7HrJEJJGJ3yxbuec5znnuWdmNB9WlJWXFHE9L/9zd9p27t09
+x2au1QozQw0jK3QLrSEbMpHIW6ylmCVh2aIkymq+KOE5C5989Hx5en7P7/f7//7/
+/i1TxoYi4fknLx2emzXzwr0fWWhjf100o7CkqFMKM0oFjF5QKcDz4xWOUAoVVVM1
+3QZhYRXbmqCUIw1RQMAJ05kuGEdUYGRy3WAmIRybxBQQQwYnhBiaYahAVKoUKLbj
+JiCdSjuuL20FJliXfizGMBaWxmK6xYVmEZUJRmIUIVO3dQApLE96gUKGY9SDqJOU
+mHzER+P9g/+fc28fteMEA6cEU6ZSTrFOGDaloQ2I2qauWQHRg7RLq0CyPR8AbKW+
+QJFYjcMhGGvQx9//lBF1wZeqVDrpJ3myUqLlvp/yCgOVX5cKaLXA4r8N4sxxhZyg
+VNRA2nOSrlKoSSb3ncBRwwQZWMcYFSiwI+WkIe4EDIOYMVWeoA7USEuLx2ImIibH
+WEfrbB0ZQgVQbYMQRGyqGroVM4UOhBpEmDZhAlmqpXHdRKZlweiAPah2k0FNGZQm
+gnachEv97WlQ6iP7w/PGhcKR0ITxY4LlCkVyp/3ZuNIjE0PX6ruLi7uqVtKOJ8PL
+b8562UNuFbHbeR1HM6cXlbQdbFjlDb5oJ3lt6aanxedfld7jTQ/bW98vP5tTf7es
+tjS74tz6ZdHM4jU/8idsGChrdfmeeVu39ezsLoGcZZEFDQcXVw88/lI+5UNzbuUF
+Y8+paPvJ/ObOM40zExWtr7W2z8c/D1XNmJy5L070N056/nNz3Jv6aaRv9q6vew+V
+hS+s3JStaJ7zsGjb9Islyo14tjaS7blxszs7tyjnR8Ta/3NB38KSkVXtVw80rN3n
+Jr5Xd3UUD79bcXTzs29vPzauzm9qufNg6PKxN7s6B3t3P/K/nHeuzK5MTVxy/fFA
+b8vS3JHhLafX5/8C
+=2P5t
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/steeef
+
+==================================================================
+

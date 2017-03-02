@@ -1,4 +1,4 @@
-baseurl = "https://stp5.net/blog/"
+baseurl = "https://stp5.net/"
 languageCode = "en-us"
 title = "stp5 blog"
 # Define how many pages appear per site
@@ -6,6 +6,9 @@ paginate = 10
 # Enable comments powered by Disqus by entering your disqus shortname
 disqusShortname = "stp5"
 theme = "minimalist"
+
+[permalinks]
+    blog = "/blog/post/:title/"
 
 [params]
     site_author = "Stephen Price"

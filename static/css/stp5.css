@@ -1,0 +1,56 @@
+div.box {
+    position: absolute;
+    z-index: -1;
+    top: 0; left: 0;
+    width: 100%;
+}
+div.box div.bar {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top: 75%;
+}
+div.box div.center {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    height: 10em;
+    margin-top: -5em;
+}
+
+img#bgimg {
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.menutext, .bigtext {
+    color: white;
+    font: bold 24px/1.618 Helvetica, Sans-Serif;
+    background: rgb(0, 0, 0) transparent; /* fallback color */
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+span.bigtext:hover, span.menuitem:hover {
+    background: rgba(0, 0, 0, 1.0);
+}
+
+.bigtext {
+    font: bold 90px/1.618 Helvetica, Sans-Serif;
+}
+
+#logotext { padding-left: 200px; }
+
+a {
+    color: inherit;
+    font: inherit;
+    text-decoration: none;
+}
+
+span.menuitem a:hover {
+    text-decoration: underline;
+}
