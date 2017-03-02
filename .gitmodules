@@ -7,3 +7,6 @@
 [submodule "themes/liquorice"]
 	path = themes/liquorice
 	url = https://github.com/eliasson/liquorice.git
+[submodule "themes/minimalist"]
+	path = themes/minimalist
+	url = https://github.com/digitalcraftsman/hugo-minimalist-theme.git
