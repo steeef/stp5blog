@@ -7,7 +7,7 @@ title = "Caddy and Let's Encrypt"
 +++
 
 *Note: this is a follow-up to my earlier post on setting up Caddy with Docker,
-which is [here]({{<relref "post/docker-hugo-caddy.md" >}}).*
+which is [here]({{<relref "docker-hugo-caddy.md" >}}).*
 
 I've just enabled Caddy's Automatic HTTPS function, which leverages [Let's
 Encrypt](https://letsencrypt.org/) to generate a key and get a signed
