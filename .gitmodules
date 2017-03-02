@@ -4,9 +4,6 @@
 [submodule "themes/hemingway"]
 	path = themes/hemingway
 	url = https://github.com/tanksuzuki/hemingway.git
-[submodule "themes/minimalistnew"]
-	path = themes/minimalistnew
-	url = https://github.com/digitalcraftsman/hugo-minimalist-theme.git
 [submodule "themes/liquorice"]
 	path = themes/liquorice
 	url = https://github.com/eliasson/liquorice.git
