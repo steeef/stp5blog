@@ -1,4 +1,4 @@
-baseurl = "https://stp5.net/"
+baseurl = "/"
 languageCode = "en-us"
 title = "stp5 blog"
 # Define how many pages appear per site
@@ -17,7 +17,7 @@ theme = "minimalist"
     # All paths are relative to the baseurl. Put your files
     # somewhere in the static folder.
     avatar = "images/profile-image.png"
-    header_background = "../images/bg.jpg"
+    header_background = "images/bg.jpg"
     header_title = "stp⁵"
     copyright = "<a href=\"https://github.com/steeef\">Stephen Price</a>"
 
