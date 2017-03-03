@@ -5,13 +5,15 @@ cache:
     - $GOPATH/pkg
     - $HOME/.cache/pip
     - $HOME/.local
+env:
+  global:
+    - PATH=${HOME}/.local/bin:${PATH} # use pip user-installed binaries
+
 install: go get -v github.com/spf13/hugo
 script:
-  - export PATH=${HOME}/.local/bin:${PATH} # use pip user-installed binaries
   - rm -rf public # cleanup
   - hugo -v
-  - pip install --upgrade --user pip
-  - pip install --user s3cmd
+  - pip install --disable-pip-version-check --user s3cmd
   - s3cmd sync --delete-removed -P -M --server-side-encryption public/ s3://${BUCKET_NAME}/
 notifications:
   email:
