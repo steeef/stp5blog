@@ -9,6 +9,7 @@ The following files and directories including their contents are Copyright
 Stephen Price, or their respective copyright holders:
 
 * content/
+* layouts/
 * static/
 
 All other directories and files are MIT Licensed unless clearly designated
