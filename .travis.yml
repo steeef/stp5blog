@@ -1,9 +1,13 @@
 language: go
 cache:
   directories:
-    - $GOPATH/pkg
-    - $HOME/.cache/pip
-    - $HOME/.local
+    - ${GOPATH}/pkg
+    - ${GOPATH}/src
+    - ${HOME}/.cache/pip
+    - ${HOME}/.local
+before_cache:
+  - rm -f ${HOME}/.cache/pip/log/debug.log
+  - rm -rf ${TRAVIS_BUILD_DIR}
 env:
   global:
     - PATH=${HOME}/.local/bin:${PATH} # use pip user-installed binaries
@@ -11,7 +15,6 @@ env:
 install: go get -v github.com/spf13/hugo
 script:
   - rm -rf public # cleanup
-  - grep -r 'draft = true' ./*
   - hugo -v
   - pip install --disable-pip-version-check --user s3cmd
   - s3cmd sync --delete-removed -P -M --server-side-encryption public/ s3://${BUCKET_NAME}/
