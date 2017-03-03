@@ -7,7 +7,7 @@ cache:
     - ${HOME}/.local
 before_cache:
   - rm -f ${HOME}/.cache/pip/log/debug.log
-  - rm -rf ${TRAVIS_BUILD_DIR}
+  - cd ${HOME} && rm -rf ${TRAVIS_BUILD_DIR}
 env:
   global:
     - PATH=${HOME}/.local/bin:${PATH} # use pip user-installed binaries
