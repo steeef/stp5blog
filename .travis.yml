@@ -12,6 +12,7 @@ env:
 install: go get -v github.com/spf13/hugo
 script:
   - rm -rf public # cleanup
+  - ag 'draft = true' public
   - hugo -v
   - pip install --disable-pip-version-check --user s3cmd
   - s3cmd sync --delete-removed -P -M --server-side-encryption public/ s3://${BUCKET_NAME}/
