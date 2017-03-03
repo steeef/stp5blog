@@ -1,8 +1,8 @@
 +++
 title = "Serverless Blog"
-draft = true
+draft = false
 tags = ["aws", "cloudfront", "s3", "serverless","travis"]
-date = "2017-03-03T10:06:16-08:00"
+date = "2017-03-03T10:08:38-08:00"
 
 +++
 
