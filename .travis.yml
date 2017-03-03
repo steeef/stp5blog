@@ -1,7 +1,6 @@
 language: go
 cache:
   directories:
-    - $GOPATH/src
     - $GOPATH/pkg
     - $HOME/.cache/pip
     - $HOME/.local
