@@ -1,12 +1,3 @@
-[submodule "themes/hemingway2"]
-	path = themes/hemingway2
-	url = https://github.com/beli3ver/hemingway2.git
-[submodule "themes/hemingway"]
-	path = themes/hemingway
-	url = https://github.com/tanksuzuki/hemingway.git
-[submodule "themes/liquorice"]
-	path = themes/liquorice
-	url = https://github.com/eliasson/liquorice.git
 [submodule "themes/minimalist"]
 	path = themes/minimalist
 	url = https://github.com/digitalcraftsman/hugo-minimalist-theme.git
