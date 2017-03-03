@@ -1,4 +1,8 @@
 language: go
+cache:
+  directories:
+    - $GOPATH/src
+    - $GOPATH/pkg
 install: go get -v github.com/spf13/hugo
 script:
   - hugo
