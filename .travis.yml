@@ -7,10 +7,12 @@ cache:
     - $HOME/.local
 install: go get -v github.com/spf13/hugo
 script:
+  - export PATH=${PATH}:${HOME}/.local/bin
   - hugo -v
   - python --version
+  - pip install --upgrade --user pip
   - pip install --user s3cmd
-  - $HOME/.local/bin/s3cmd sync --delete-removed -P -M --server-side-encryption public/ s3://${BUCKET_NAME}/
+  - s3cmd sync --delete-removed -P -M --server-side-encryption public/ s3://${BUCKET_NAME}/
 notifications:
   email:
     on_failure: always
