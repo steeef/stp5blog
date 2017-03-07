@@ -16,11 +16,11 @@ env:
     - PATH=${HOME}/.local/bin:${PATH} # use pip user-installed binaries
 
 install: go get -v github.com/spf13/hugo
-script:
+before_script:
   - rm -rf public # cleanup
   - pip install --disable-pip-version-check --user s3cmd Pygments
-  - hugo -v
-  - s3cmd sync --delete-removed -P -M --no-mime-magic --server-side-encryption public/ s3://${BUCKET_NAME}/
+script:
+  - hugo -v && s3cmd sync --delete-removed -P -M --no-mime-magic --server-side-encryption public/ s3://${BUCKET_NAME}/
 notifications:
   email:
     on_failure: always
