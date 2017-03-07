@@ -84,7 +84,7 @@ In particular, the fact that Credstash could use a binary to print credentials
 to stdout meant I could run an application directly from the command line
 without having to store credentials in a config file, like so:
 
-```
+```sh
 java -Dsome.property="$(credstash get prd.some.property)" -jar someapp.jar
 ```
 
@@ -126,7 +126,7 @@ command line with the AWS CLI (which comes for free with Amazon Linux, but is
 also pretty easy to install on your favorite distro). The above example would
 be something like this in AWS CLI:
 
-```
+```sh
 java -Dsome.property="$(\
   aws ssm get-parameters \
   --names prd.some.property \
