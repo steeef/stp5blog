@@ -8,6 +8,20 @@
             {{ .Content}}
             {{ partial "article-share" . }}
         </article>
+          <div class="comments">
+            <h3>{{ .Site.Data.l10n.comments.comments }}</h3>
+            <script src="https://embedd.io/embedd.min.js">
+              {
+                  "dark": false,
+                  "both": false,
+                  "service": "hn",
+                  "loadMore": false,
+                  "infiniteScroll": true,
+                  "limit": 10,
+                  "debug": true
+              }
+            </script>
+        </div>
     </main>
     {{ partial "author" . }}
 </div>
