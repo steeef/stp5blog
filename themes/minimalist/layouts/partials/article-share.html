@@ -1,6 +1,12 @@
 <ul class="share-buttons">
     <li>{{ .Site.Data.l10n.share.title }}</li>
     <li>
+      <a class="icon-hacker-news" href="//news.ycombinator.com/submitlink?u={{ .Permalink }}&t={{ .Title }}"  onclick="window.open(this.href, 'hacker-news-share','width=580,height=350');return false;" title="{{ .Site.Data.l10n.share.hn }}"></a>
+    </li>
+    <li>
+      <a class="icon-reddit" href="//reddit.com/submit?url={{ .Permalink }}&title={{ .Title }}" target="_blank" title="{{ .Site.Data.l10n.share.reddit }}"></a>
+    </li>
+    <li>
         <a class="icon-facebook-squared" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="{{ .Site.Data.l10n.share.facebook }}"></a>
     </li>
     <li>

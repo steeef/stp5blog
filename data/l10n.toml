@@ -13,6 +13,8 @@
 [share]
     title = "Share this article:"
     facebook = "Share on Facebook"
+    hn = "Share on Hacker News"
+    reddit = "Share on Reddit"
     twitter = "Tweet this article"
     gplus = "Share on Google+"
     linkedin = "Share on Linkedin"
