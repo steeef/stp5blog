@@ -6,7 +6,7 @@ tags = ["aws", "credstash", "kms", "secrets", "systems manager", "parameter stor
 
 +++
 
-## Managing secrets in the cloud
+# Managing secrets in the cloud
 
 Moving hosted services to cloud-based archictectures has introduced a lot of
 different pain points, some new, some pre-existing that become more of an
@@ -22,7 +22,7 @@ The main question here is: "How do you expose secrets to only those services
 that require them, without exposing them to those that don't, and at the same
 time make their lifecycle (rotating/replacing/expiring) easy to maintain?"
 
-## Managing secrets in AWS
+# Managing secrets in AWS
 
 The folks at `$job.current` asked me to come up with a secrets management
 solution last year. We're fully-hosted in the AWS cloud, so your requirements
@@ -38,7 +38,7 @@ We wanted to avoid having to stand up an entire cluster on virtual machines
 (EC2 instances, in this case) and instead leverage any AWS service designed to
 be fault-tolerant/HA.
 
-## My choices
+# My choices
 
 Before I selected anything, I wanted to see if there was an official way to
 manage secrets in AWS. At the time I looked, Amazon recommended a combination
@@ -71,7 +71,7 @@ and KMS to encrypt/decrypt them. The main difference between them is the
 language they're written in: Credstash is written in Python, Biscuit in Go.
 Sneaker is similar, but stores things in S3 buckets.
 
-## The choice, at the time
+# The choice, at the time
 
 I ended up choosing Credstash for the following reasons:
 
@@ -84,7 +84,7 @@ In particular, the fact that Credstash could use a binary to print credentials
 to stdout meant I could run an application directly from the command line
 without having to store credentials in a config file, like so:
 
-```sh
+``` bash
 java -Dsome.property="$(credstash get prd.some.property)" -jar someapp.jar
 ```
 
@@ -97,7 +97,7 @@ Using Credstash did come with a few downsides though:
    is a requirement, which must be built for the same architecture it's running
    on.
 
-## Enter Parameter Store
+# Enter Parameter Store
 
 Credstash worked pretty well for a while, but those downsides mentioned were
 still ones I wanted to address, and they became more apparent the more secrets
@@ -126,7 +126,7 @@ command line with the AWS CLI (which comes for free with Amazon Linux, but is
 also pretty easy to install on your favorite distro). The above example would
 be something like this in AWS CLI:
 
-```sh
+``` bash
 java -Dsome.property="$(\
   aws ssm get-parameters \
   --names prd.some.property \
@@ -136,7 +136,7 @@ java -Dsome.property="$(\
 )" -jar someapp.jar
 ```
 
-## Caveats
+# Caveats
 
 There are a few restrictions that may make Parameter Store a non-starter for
 some:
