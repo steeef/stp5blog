@@ -1,6 +1,7 @@
 +++
 date = "2017-03-09T10:05:23-08:00"
 title = "ChatOps and Cog"
+description = "A brief history of ChatOps and how the chatbot Cog changes the landscape."
 draft = false
 tags = ["chatops", "cog", "hubot"]
 

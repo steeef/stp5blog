@@ -2,6 +2,7 @@
 date = "2017-03-06T10:59:35-08:00"
 publishdate = "2017-03-09T10:19:18-08:00"
 title = "Secrets in AWS"
+description = "An exploration of various secrets management tools in AWS."
 draft = false
 tags = ["aws", "credstash", "kms", "secrets", "systems manager", "parameter store"]
 
