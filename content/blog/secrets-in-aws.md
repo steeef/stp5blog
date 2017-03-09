@@ -1,5 +1,6 @@
 +++
 date = "2017-03-06T10:59:35-08:00"
+publishdate = "2017-03-09T10:19:18-08:00"
 title = "Secrets in AWS"
 draft = false
 tags = ["aws", "credstash", "kms", "secrets", "systems manager", "parameter store"]
@@ -138,15 +139,18 @@ java -Dsome.property="$(\
 
 # Caveats
 
-There are a few restrictions that may make Parameter Store a non-starter for
-some:
+~~There are a few restrictions that may make Parameter Store a non-starter for
+some:~~
 
-1. There is a soft-limit of 100 parameters per account (may be one that can be
-   increased in the future similar to other soft-limits).
-2. Each parameter can be at most 1024 characters long. This would prevent you
-   from being able to use it for something like a cryptographically-strong GPG
-   key or SSL certificate. For that Amazon still recommends encrypted S3
-   buckets.
+**Update 2017-03-09**: I've just learned from Amazon that they've made an
+unannounced update to these limits. I've listed the changes below:
+
+1. There is a soft-limit of ~~100~~ 1000 parameters per account (may be one
+   that can be increased in the future similar to other soft-limits).
+2. Each parameter can be at most ~~1024~~ 4096 characters long. ~~This would 
+   prevent you from being able to use it for something like a 
+   cryptographically-strong GPG key or SSL certificate.~~ For larger secrets,
+   Amazon still recommends encrypted S3 buckets.
 
 That said, the fact that Amazon now has a widely-available and official secrets
 management solution that can be managed by their powerful IAM policies makes my
