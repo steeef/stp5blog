@@ -110,7 +110,7 @@ help:
 
 If your command is provided by a specific bundle, you run it with:
 
-```
+``` bash
 !<bundle-name>:<command> <arguments>
 ```
 
