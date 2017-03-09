@@ -1,6 +1,6 @@
 baseurl = "https://stp5.net/"
 languageCode = "en-us"
-title = "stp5 blog"
+title = "stp5.net"
 # Define how many pages appear per site
 paginate = 10
 theme = "minimalist"
@@ -13,7 +13,7 @@ PygmentsStyle = "monokai"
 
 [params]
     site_author = "Stephen Price"
-    site_description = "stp5.net blog"
+    site_description = "stp5.net"
     location = "Portland, OR"
     # All paths are relative to the baseurl. Put your files
     # somewhere in the static folder.
