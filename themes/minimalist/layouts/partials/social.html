@@ -22,4 +22,6 @@
 <li><a href="//plus.google.com/+{{.}}" class="icon-gplus" target="_blank" title="Google+"></a></li>
 {{ end }}
 
-{{ if .RSSLink }}<li><a href="{{ .RSSLink }}" class="icon-rss" target="_blank" title="RSS"></a></li>{{ end }}
+{{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<li><a href="%s" class="icon-rss" target="_blank" title="RSS"></a></li>` .Permalink | safeHTML }}
+{{ end -}}

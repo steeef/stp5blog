@@ -1,6 +1,8 @@
 <footer class="main-footer">
   <div class="container clearfix">
-        <a class="icon-rss" href="{{ .RSSLink }}" title="RSS"></a>
+        {{ with .OutputFormats.Get "rss" -}}
+          {{ printf `<a class="icon-rss" href="%s" title="RSS"></a>` .Permalink | safeHTML }}
+        {{ end -}}
         <p>&copy; {{ now.Year }} &middot; {{ .Site.Params.copyright | markdownify }}</p>
   </div>
 </footer>
