@@ -43,7 +43,6 @@ jobs:
             --time-cond "${{env.CURL_CACHE_DIR}}/${S3DEPLOY_TARBALL}" \
             --location \
             "https://github.com/bep/s3deploy/releases/download/v${{env.S3DEPLOY_VERSION}}/${S3DEPLOY_TARBALL}"
-          tree "${{env.CURL_CACHE_DIR}}"
           tar -xvf "${{env.CURL_CACHE_DIR}}/${S3DEPLOY_TARBALL}" s3deploy
           chmod +x ./s3deploy
 
@@ -63,5 +62,5 @@ jobs:
           AWS_REGION: ${{secrets.AWS_REGION}}
           CLOUDFRONT_DISTRIBUTION: ${{secrets.AWS_CLOUDFRONT_DISTRIBUTION}}
         run: |
-          ./s3deploy -acl public -distribution-id "${CLOUDFRONT_DISTRIBUTION}" \
+          ./s3deploy -v -acl public -distribution-id "${CLOUDFRONT_DISTRIBUTION}" \
           -source "./public/" -bucket "${S3_BUCKET}" -region "${AWS_REGION}"
