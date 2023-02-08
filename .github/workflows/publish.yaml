@@ -55,15 +55,12 @@ jobs:
           role-to-assume: ${{secrets.AWS_IAM_ROLE}}
           aws-region: ${{secrets.AWS_REGION}}
 
-      - name: Synchronize S3 Bucket
+      - name: Run s3deploy
         shell: bash
         env:
           S3_BUCKET: ${{secrets.AWS_S3_BUCKET}}
           AWS_REGION: ${{secrets.AWS_REGION}}
+          CLOUDFRONT_DISTRIBUTION: ${{secrets.AWS_CLOUDFRONT_DISTRIBUTION}}
         run: |
-          aws s3 sync \
-            --delete \
-            --acl public-read \
-            --no-progress \
-            --sse AES256 \
-            "public/" "s3://${S3_BUCKET}/"
+          ./s3deploy -acl public -distribution-id "${CLOUDFRONT_DISTRIBUTION}" \
+          -source "./public/" -bucket "${S3_BUCKET}" -region "${AWS_REGION}"
