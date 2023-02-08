@@ -21,3 +21,22 @@ jobs:
 
       - name: Build
         run: hugo --minify
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: ${{secrets.AWS_IAM_ROLE}}
+          aws-region: ${{secrets.AWS_REGION}}
+
+      - name: Synchronize S3 Bucket
+        shell: bash
+        env:
+          S3_BUCKET: ${{secrets.AWS_S3_BUCKET}}
+          AWS_REGION: ${{secrets.AWS_REGION}}
+        run: |
+          aws s3 sync \
+            --delete \
+            --acl public-read \
+            --no-progress \
+            --sse AES256 \
+            "public/" "s3://${S3_BUCKET}/"
