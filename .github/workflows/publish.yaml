@@ -40,7 +40,7 @@ jobs:
           mkdir -p "${{env.CURL_CACHE_DIR}}"
           S3DEPLOY_TARBALL="s3deploy_${{env.S3DEPLOY_VERSION}}_linux-amd64.tar.gz"
           curl --output "${{env.CURL_CACHE_DIR}}/${S3DEPLOY_TARBALL}" \
-            --time-cond "${{env.CURL_CACHE_DIR}}/"${S3DEPLOY_TARBALL}" \
+            --time-cond "${{env.CURL_CACHE_DIR}}/${S3DEPLOY_TARBALL}" \
             --location \
             "https://github.com/bep/s3deploy/releases/download/v${{env.S3DEPLOY_VERSION}}/${S3DEPLOY_TARBALL}"
           tar -xvf "${{env.CURL_CACHE_DIR}}/${S3DEPLOY_TARBALL}"
