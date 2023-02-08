@@ -12,6 +12,8 @@ permissions:
 
 env:
   HUGO_VERSION: "0.110.0"
+  S3DEPLOY_VERSION: "2.9.0"
+  CURL_CACHE_DIR: "~/.cache/curl"
 
 jobs:
   deploy:
@@ -21,10 +23,28 @@ jobs:
         with:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
+      - name: Cache curl downloads
+        uses: actions/cache@v3
+        with:
+          path: ${{env.CURL_CACHE_DIR}}
+          key: "${{runner.os}}-curl-s3deploy-${{env.S3DEPLOY_VERSION}}"
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: ${{env.HUGO_VERSION}}
+
+      - name: Setup s3deploy
+        shell: bash
+        run: |
+          mkdir -p "${{env.CURL_CACHE_DIR}}"
+          S3DEPLOY_TARBALL="s3deploy_${{env.S3DEPLOY_VERSION}}_linux-amd64.tar.gz"
+          curl --output "${{env.CURL_CACHE_DIR}}/${S3DEPLOY_TARBALL}" \
+            --time-cond "${{env.CURL_CACHE_DIR}}/"${S3DEPLOY_TARBALL}" \
+            --location \
+            "https://github.com/bep/s3deploy/releases/download/v${{env.S3DEPLOY_VERSION}}/${S3DEPLOY_TARBALL}"
+          tar -xvf "${{env.CURL_CACHE_DIR}}/${S3DEPLOY_TARBALL}"
+          chmod +x ./s3deploy
 
       - name: Build
         run: hugo --minify
