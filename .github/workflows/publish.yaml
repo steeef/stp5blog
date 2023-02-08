@@ -43,7 +43,8 @@ jobs:
             --time-cond "${{env.CURL_CACHE_DIR}}/${S3DEPLOY_TARBALL}" \
             --location \
             "https://github.com/bep/s3deploy/releases/download/v${{env.S3DEPLOY_VERSION}}/${S3DEPLOY_TARBALL}"
-          tar -xvf "${{env.CURL_CACHE_DIR}}/${S3DEPLOY_TARBALL}"
+          tree "${env.CURL_CACHE_DIR}"
+          tar -xvf "${{env.CURL_CACHE_DIR}}/${S3DEPLOY_TARBALL}" s3deploy
           chmod +x ./s3deploy
 
       - name: Build
