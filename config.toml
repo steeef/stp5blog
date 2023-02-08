@@ -30,9 +30,8 @@ PygmentsStyle = "monokai"
     # Add your social network accounts to the profile section on the left
     # by entering your username. The links to your account will be
     # create automatically.
-    twitter   = "steeef"
+    mastodon  = "https://hachyderm.io/@steeef"
     facebook  = ""
     linkedin  = ""
     instagram = ""
     github    = "steeef"
-    gplus     = "steeef"

@@ -402,7 +402,7 @@ th {
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-.icon-twitter:before {
+.icon-mastodon:before {
   content: '\e800'; }
 
 /* '' */
