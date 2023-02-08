@@ -13,7 +13,7 @@ permissions:
 env:
   HUGO_VERSION: "0.110.0"
   S3DEPLOY_VERSION: "2.9.0"
-  CURL_CACHE_DIR: "~/.cache/curl"
+  CURL_CACHE_DIR: ".cache/curl"
 
 jobs:
   deploy:
