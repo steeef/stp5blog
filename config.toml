@@ -35,30 +35,3 @@ PygmentsStyle = "monokai"
     linkedin  = ""
     instagram = ""
     github    = "steeef"
-
-[deployment]
-  [[deployment.targets]]
-    name = "aws-s3"
-    URL = "s3://stp5-cdn?region=us-east-1"
-    cloudFrontDistributionID = "EIU1Q96AD7XYB"
-
-  [[deployment.matchers]]
-    pattern = "^sitemap\\.xml$"
-    cacheControl = "public, s-maxage=604800, max-age=86400" #7d,1d
-    contentType = "application/xml"
-
-  [[deployment.matchers]]
-    pattern = "^.+\\.(css|js)$"
-    cacheControl = "public, immutable, max-age=31536000" #1y
-
-  [[deployment.matchers]]
-    pattern = "(?i)^.+_hu[0-9a-f]{32}_.+\\.(jpg|jpeg|gif|png|webp)$"
-    cacheControl = "public, immutable, max-age=31536000" #1y
-
-  [[deployment.matchers]]
-    pattern = "(?i)^.+\\.(jpg|jpeg|gif|png|webp|mp4|woff|woff2)$"
-    cacheControl = "public, s-maxage=7776000, max-age=604800" #90d,7d
-
-  [[deployment.matchers]]
-    pattern = "^.+\\.(html|xml|json|txt)$"
-    cacheControl = "public, s-maxage=604800, max-age=3600" #7d,1h
