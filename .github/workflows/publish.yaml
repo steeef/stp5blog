@@ -50,7 +50,7 @@ jobs:
           AWS_REGION: ${{secrets.AWS_REGION}}
           S3_BUCKET: ${{secrets.AWS_S3_BUCKET}}
         run: |
-          s3cmd --recursive --debug --delete-removed --acl-public \
+          s3cmd --recursive --verbose --delete-removed --acl-public --region "${AWS_REGION}" \
           --guess-mime-type --no-mime-magic --server-side-encryption \
-          --cf-invalidate \
+          --cf-invalidate --cf-no-invalidate-default-index-root \
           sync ./public/ "s3://${S3_BUCKET}/"
