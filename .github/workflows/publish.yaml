@@ -51,7 +51,7 @@ jobs:
           S3_BUCKET: ${{secrets.AWS_S3_BUCKET}}
           CLOUDFRONT_DISTRIBUTION: ${{secrets.AWS_CLOUDFRONT_DISTRIBUTION}}
         run: |
-          s3cmd sync --delete-removed --acl-public \
+          s3cmd --verbose --delete-removed --acl-public \
           --guess-mime-type --no-mime-magic --server-side-encryption \
           --cf-invalidate \
-          "public/" "s3://${S3_BUCKET}/"
+          sync "public/" "s3://${S3_BUCKET}/"
