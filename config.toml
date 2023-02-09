@@ -35,3 +35,9 @@ PygmentsStyle = "monokai"
     linkedin  = ""
     instagram = ""
     github    = "steeef"
+
+[deployment]
+  [[deployment.targets]]
+    name = "aws-s3"
+    URL = "s3://stp5-cdn?region=us-east-1"
+    cloudFrontDistributionID = "EIU1Q96AD7XYB"
