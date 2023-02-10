@@ -1,0 +1,28 @@
+baseurl: "https://stp5.net/"
+languageCode: "en-us"
+title: "stp5.net"
+paginate: 10
+theme: "minimalist"
+
+# syntax highlighing
+PygmentsCodeFences: true
+PygmentsStyle: "monokai"
+
+permalinks:
+  blog: "/blog/post/:title/"
+
+params:
+  site_author: "Stephen Price"
+  site_description: "stp5.net"
+  location: "Portland, OR"
+  # All paths are relative to the baseurl. Put your files
+  # somewhere in the static folder.
+  avatar: "images/profile-image.png"
+  image: "images/heroimage.png"
+  header_background: "images/bg.jpg"
+  header_title: "stp⁵"
+  copyright: '<a href="https://github.com/steeef">Stephen Price</a>'
+
+social:
+  github: "steeef"
+  mastodon: "https://hachyderm.io/@steeef"
