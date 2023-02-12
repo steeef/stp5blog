@@ -1,15 +1,37 @@
 baseurl: "https://stp5.net/"
+enableEmoji: true
+footnotereturnlinkcontents: "↩"
 languageCode: "en-us"
 title: "stp5.net"
 paginate: 10
-theme: "minimalist"
+theme: "classic"
 
-# syntax highlighing
-PygmentsCodeFences: true
-PygmentsStyle: "monokai"
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: "monokai"
+    tabWidth: 4
 
 permalinks:
   blog: "/blog/post/:title/"
+
+menu:
+  main:
+    - name: "posts"
+      url: "/blog"
+    - name: "about"
+      url: "/about"
+  feed:
+    - name: "subscribe"
+      url: "/index.xml"
 
 params:
   site_author: "Stephen Price"
@@ -21,8 +43,6 @@ params:
   image: "images/heroimage.png"
   header_background: "images/bg.jpg"
   header_title: "stp⁵"
-  copyright: '<a href="https://github.com/steeef">Stephen Price</a>'
-
-social:
-  github: "steeef"
-  mastodon: "https://hachyderm.io/@steeef"
+  custom_css:
+    - "css/theme-override.css"
+  footer: '© Stephen Price <a rel="me" href="https://hachyderm.io/@steeef"><img class="social" alt="Mastodon" src="/images/mastodon.svg"></a> <a href="https://github.com/steeef"><img class="social" alt="GitHub" src="/images/github.svg"></a>'
