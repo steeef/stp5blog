@@ -1,10 +1,10 @@
-baseurl = "/"
 enableEmoji = true
 footnotereturnlinkcontents = "↩"
 googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 languageCode = "en-us"
-theme = "hugo-classic"
+themesDir = "../../"
+theme = "classic"
 title = "Classic"
 
 [markup.goldmark.renderer]
