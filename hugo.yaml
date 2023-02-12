@@ -43,7 +43,7 @@ params:
   header_title: "stp⁵"
   custom_css:
     - "css/theme-override.css"
-  footer: '© Stephen Price <a rel="me" href="hachyderm.io/@steeef"><img alt="Mastodon" src="/images/mastodon.svg"></a> <a href="https://github.com/steeef"><img alt="GitHub" src="/images/github.svg"></a>'
+  footer: '© Stephen Price <a rel="me" href="https://hachyderm.io/@steeef"><img class="social" alt="Mastodon" src="/images/mastodon.svg"></a> <a href="https://github.com/steeef"><img class="social" alt="GitHub" src="/images/github.svg"></a>'
 
 social:
   github: "steeef"
