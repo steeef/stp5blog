@@ -27,6 +27,8 @@ menu:
   main:
     - name: "posts"
       url: "/blog"
+    - name: "about"
+      url: "/about"
   feed:
     - name: "subscribe"
       url: "/index.xml"
