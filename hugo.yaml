@@ -25,7 +25,7 @@ permalinks:
 
 menu:
   main:
-    - name: "blogs"
+    - name: "posts"
       url: "/blog"
   feed:
     - name: "subscribe"
@@ -44,7 +44,3 @@ params:
   custom_css:
     - "css/theme-override.css"
   footer: '© Stephen Price <a rel="me" href="https://hachyderm.io/@steeef"><img class="social" alt="Mastodon" src="/images/mastodon.svg"></a> <a href="https://github.com/steeef"><img class="social" alt="GitHub" src="/images/github.svg"></a>'
-
-social:
-  github: "steeef"
-  mastodon: "https://hachyderm.io/@steeef"
