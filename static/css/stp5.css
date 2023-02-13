@@ -43,7 +43,7 @@ span.bigtext:hover, span.menuitem:hover {
     font: bold 90px/1.618 Helvetica, Sans-Serif;
 }
 
-#logotext { padding-left: 200px; }
+#logotext { padding-left: 100px; }
 
 a {
     color: inherit;

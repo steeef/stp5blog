@@ -37,12 +37,6 @@ params:
   site_author: "Stephen Price"
   site_description: "stp5.net"
   location: "Portland, OR"
-  # All paths are relative to the baseurl. Put your files
-  # somewhere in the static folder.
-  avatar: "images/profile-image.png"
-  image: "images/heroimage.png"
-  header_background: "images/bg.jpg"
-  header_title: "stp⁵"
   custom_css:
     - "css/theme-override.css"
   footer: '© Stephen Price <a rel="me" href="https://hachyderm.io/@steeef"><img class="social" alt="Mastodon" src="/images/mastodon.svg"></a> <a href="https://github.com/steeef"><img class="social" alt="GitHub" src="/images/github.svg"></a>'
