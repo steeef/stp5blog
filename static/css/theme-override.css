@@ -1,8 +1,13 @@
 footer { font-size: 90%; }
 
 .list-title, .article-meta {
+  color: rgb(248, 248, 242);
   background-image: url("/images/title.png");
   object-fit: cover;
+}
+
+.article-meta a {
+  color: rgb(248, 248, 242);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -10,14 +15,34 @@ footer { font-size: 90%; }
     filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(319deg) brightness(110%) contrast(100%);
     display: inline;
   }
+
+  a {
+    color: rgb(189, 147, 249);
+  }
+
+  body {
+    background-color: rgb(40, 42, 54);
+    color: rgb(248, 248, 242);
+  }
+
+  blockquote {
+    background: rgb(40, 42, 54);
+  }
+
+
+  header {
+    background: rgb(40, 42, 54);
+    border-bottom: 2px solid rgb(189, 147, 249);
+  }
+
+  .menu a {
+    background: rgb(40, 42, 54);
+    color: rgb(248, 248, 242);
+  }
 }
 
 @media (prefers-color-scheme: light) {
   .social {
     display: inline;
-  }
-
-  .list-title, .article-meta {
-    color: white;
   }
 }
