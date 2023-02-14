@@ -1,6 +1,6 @@
 footer { font-size: 90%; }
 
-.article-meta {
+.list-title, .article-meta {
   background-image: url("/images/title.png");
   object-fit: cover;
 }
@@ -17,7 +17,7 @@ footer { font-size: 90%; }
     display: inline;
   }
 
-  .article-meta {
+  .list-title, .article-meta {
     color: white;
   }
 }

@@ -2,7 +2,9 @@
 
 <div class="content-wrapper">
 {{if not .IsHome }}
-  <h1>{{ .Title | markdownify }}</h1>
+  <div class="list-title">
+    <h1>{{ .Title | markdownify }}</h1>
+  </div>
   {{ end }}
 
   {{ .Content }}
