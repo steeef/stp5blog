@@ -1,0 +1,110 @@
+@media (prefers-color-scheme: dark) {
+  .mastodon-comment {
+    background-color: #44475a;
+  }
+  .mastodon-comment .disabled {
+    color: #6272a4;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .mastodon-comment {
+    background-color: #e9e5e5;
+  }
+  .mastodon-comment .disabled {
+    color: #34495e;
+  }
+}
+
+.mastodon-comment {
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  flex-grow: 2;
+}
+.mastodon-comment .comment {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: true;
+}
+.mastodon-comment .avatar img {
+  display: inline;
+  width: 6rem;
+}
+.mastodon-comment .content {
+  flex-grow: 2;
+}
+.mastodon-comment .content .author {
+  display: flex;
+  flex-direction: column;
+}
+.mastodon-comment .content .author img {
+  display: inline;
+}
+.mastodon-comment .comment-author-name {
+  font-weight: bold;
+}
+.mastodon-comment .comment-author-name a {
+  display: flex;
+  align-items: center;
+}
+.mastodon-comment .comment-author-date {
+  margin-left: auto;
+}
+.mastodon-comment-content p:first-child {
+  margin-top: 0;
+}
+.mastodon {
+  --dlg-bg: #282c37;
+  --dlg-w: 600px;
+  --dlg-color: #9baec8;
+  --dlg-button-p: 0.75em 2em;
+  --dlg-outline-c: #00D9F5;
+}
+.copypaste {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.copypaste input {
+  display: block;
+  font-family: inherit;
+  background: #17191f;
+  border: 1px solid #8c8dff;
+  color: #9baec8;
+  border-radius: 4px;
+  padding: 6px 9px;
+  line-height: 22px;
+  font-size: 14px;
+  transition: border-color 0.3s linear;
+  flex: 1 1 auto;
+  overflow: hidden;
+}
+.copypaste .button {
+  border: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 22px;
+  overflow: hidden;
+  padding: 7px 18px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: auto;
+  background-color: #232730;
+}
+.copypaste .button:hover {
+  background-color: #16181e;
+}
