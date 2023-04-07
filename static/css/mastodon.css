@@ -1,5 +1,21 @@
+@media (prefers-color-scheme: dark) {
+  .mastodon-comment {
+    background-color: #44475a;
+  }
+  .mastodon-comment .disabled {
+    color: #6272a4;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .mastodon-comment {
+    background-color: #e9e5e5;
+  }
+  .mastodon-comment .disabled {
+    color: #34495e;
+  }
+}
+
 .mastodon-comment {
-  /* background-color: #e9e5e5; */
   border-radius: 10px;
   padding: 30px;
   margin-bottom: 1rem;
@@ -14,15 +30,19 @@
   gap: 1rem;
   flex-wrap: true;
 }
-.mastodon-comment .comment-avatar img {
+.mastodon-comment .avatar img {
+  display: inline;
   width: 6rem;
 }
 .mastodon-comment .content {
   flex-grow: 2;
 }
-.mastodon-comment .comment-author {
+.mastodon-comment .content .author {
   display: flex;
   flex-direction: column;
+}
+.mastodon-comment .content .author img {
+  display: inline;
 }
 .mastodon-comment .comment-author-name {
   font-weight: bold;
@@ -33,9 +53,6 @@
 }
 .mastodon-comment .comment-author-date {
   margin-left: auto;
-}
-.mastodon-comment .disabled {
-  color: #34495e;
 }
 .mastodon-comment-content p:first-child {
   margin-top: 0;
