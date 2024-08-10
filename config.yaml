@@ -34,11 +34,6 @@ menu:
       url: "/index.xml"
 
 params:
-  comment:
-    mastodon:
-      enable: true
-      host: hachyderm.io
-      user: steeef
   site_author: "Stephen Price"
   site_description: "stp5.net"
   location: "Portland, OR"
