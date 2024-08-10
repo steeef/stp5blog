@@ -55,12 +55,21 @@ Overall theme: acknowledging history of racism, dismantling white supremacy
 # Links
 
 https://www.theatlantic.com/ideas/archive/2020/06/senate-filibuster-monument-white-supremacy/613579/
+
 https://www.thenation.com/article/politics/supreme-court-packing/
+
 https://www.thenation.com/article/society/how-to-fix-supreme-court/
+
 https://www.congress.gov/bill/118th-congress/house-bill/14
+
 https://www.hrc.org/resources/voting-rights-advancement-act
+
 https://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/
+
 https://www.newyorker.com/news/the-new-yorker-interview/ta-nehisi-coates-revisits-the-case-for-reparations
+
 https://www.congress.gov/bill/117th-congress/senate-bill/4573
+
 https://nymag.com/intelligencer/2020/08/senate-washington-dc-puerto-rico-statehood-filibuster-obama-biden-racist.html
+
 https://www.thenation.com/article/politics/abolish-us-senate/
