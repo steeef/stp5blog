@@ -47,6 +47,7 @@ Overall theme: acknowledging history of racism, dismantling white supremacy
     * get rid of unanimous verdict requirements
     * toss out for-profit prisons, solitary confinement
 * Reparations
+    * H.R. 40
 
 # Keep Going
 
@@ -72,6 +73,8 @@ https://www.hrc.org/resources/voting-rights-advancement-act
 https://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/
 
 https://www.newyorker.com/news/the-new-yorker-interview/ta-nehisi-coates-revisits-the-case-for-reparations
+
+https://www.congress.gov/bill/117th-congress/house-bill/40
 
 https://www.congress.gov/bill/117th-congress/senate-bill/4573
 
