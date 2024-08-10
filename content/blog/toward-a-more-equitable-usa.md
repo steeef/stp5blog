@@ -47,7 +47,11 @@ Overall theme: acknowledging history of racism, dismantling white supremacy
     * get rid of unanimous verdict requirements
     * toss out for-profit prisons, solitary confinement
 * Reparations
-    * H.R. 40
+    * forces us to reckon with the past
+    * H.R. 40: to start a study for reparations
+    * Coates: "When we think of white supremacy, we picture Colored Only signs, but we should picture pirate flags."
+    * "a rough price tag for reparations could be determined by multiplying the number of African Americans in the population by the difference in white and black per capita income"
+    * "a program of job training and public works that takes racial justice as its mission but includes the poor of all races"
 
 # Keep Going
 
