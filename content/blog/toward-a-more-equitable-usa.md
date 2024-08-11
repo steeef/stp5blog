@@ -30,6 +30,7 @@ Overall theme: acknowledging history of racism, dismantling white supremacy
     * no restrictive requirements like IDs
     * no voter purges without notification
     * ban partisan/racial gerrymandering
+    * make voting day a national holiday
 * Raise taxes: rich people (progressive tax on wealth, inheritance, capital gains), corporations
 * Health care: Medicare for All
     * reproductive care
@@ -61,6 +62,7 @@ Overall theme: acknowledging history of racism, dismantling white supremacy
     * Electoral Count Reform Act: EC votes go to popular vote winner per state
 * abolish the senate (nod to Mystal again)
     * props up white supremacy
+    * admitting DC and Puerto Rico would lessen white overrepresentation
 
 # Links
 
