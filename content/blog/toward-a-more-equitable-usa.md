@@ -63,6 +63,7 @@ Overall theme: acknowledging history of racism, dismantling white supremacy
 * abolish the senate (nod to Mystal again)
     * props up white supremacy
     * admitting DC and Puerto Rico would lessen white overrepresentation
+    * Mystal: "By 2040, it is projected that 70 percent of the country will be represented by just 30 senators"
 
 # Links
 
